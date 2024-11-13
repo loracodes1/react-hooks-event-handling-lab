@@ -5,10 +5,10 @@ function Keypad (){
         console.log('Entering password...');
       };
     return (
-        <div><input 
+        <input 
         type="password" 
         onChange={handleChange} 
-      /></div>
+      />
     )
 }
 
